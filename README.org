@@ -7,7 +7,13 @@ vertically up on the same mount as the HF TV antenna.
 #+caption: Mount
 [[file:pics/mount.jpg]]
 
-The tin is precariously mounted on a cross beam. Power and wired ethernet is fed in from below.
+The tin is precariously mounted on a cross beam. Power and wired ethernet is fed
+in from below.
+
+The tin was used because its unlikely to catch fire, and should be able to
+contain any electrical fires. Its also a faraday cage of sorts, but for that to
+be really effective the pi needs to be more isolated from the SDR internally,
+and the tin needs to be grounded. All of that may improve reception a bit.
 
 #+caption: Shortbread tin
 [[file:pics/tin.jpg]]
