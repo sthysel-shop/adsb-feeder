@@ -1,0 +1,29 @@
+#+title: ADS-B feeder
+
+This is the box hosting the PiAware hardware for the [[https://flightaware.com/adsb/stats/user/sthysel][FlightAware]] system. Is
+mounted in my attic, which has a tin roof. The ADS-B antenna is mounted close by
+vertically up on the same mount as the HF TV antenna.
+
+#+caption: Mount
+[[file:pics/mount.jpg]]
+
+The tin is precariously mounted on a cross beam. Power and wired ethernet is fed in from below.
+
+#+caption: Shortbread tin
+[[file:pics/tin.jpg]]
+
+Everybody like shortbread. Some ventilation holes for bugs to freely travel. Also heat to escape.
+
+#+caption: Components
+[[file:pics/guts.jpg]]
+
+** The components
+   - 1090 band pass filter to get rid of surrounding frequencies
+   - A 8020 SDR USB stick
+   - Raspberry Pi running 1090 ADS-B decoder and FlightAware local website and out-feeder
+   - Inline Ethernet surge arrestor to help protect the rest of the network
+     against lightning strikes
+
+
+
+
