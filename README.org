@@ -1,5 +1,9 @@
 #+title: ADS-B feeder
 
+#+caption: PiAware
+[[file:pics/piaware.png]]
+
+
 This is the box hosting the PiAware hardware for the [[https://flightaware.com/adsb/stats/user/sthysel][FlightAware]] system. Is
 mounted in my attic, which has a tin roof. The ADS-B antenna is mounted close by
 vertically up on the same mount as the HF TV antenna.
@@ -29,7 +33,3 @@ Everybody like shortbread. Some ventilation holes for bugs to freely travel. Als
    - Raspberry Pi running 1090 ADS-B decoder and FlightAware local website and out-feeder
    - Inline Ethernet surge arrestor to help protect the rest of the network
      against lightning strikes
-
-
-
-
